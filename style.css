@@ -155,7 +155,7 @@ button {
 }
 
 .hover a:hover img {
-    opacity: 0.35;
+    opacity: 0.30;
 }
 
 .project_name {
@@ -166,7 +166,16 @@ button {
     top: 0px;
     z-index: 1;
     opacity: 0.0;
+}
+
+.project_name h1 {
     font-size: 30pt;
+    font-weight: 100;
+}
+
+.project_name h2 {
+    font-size: 18pt;
+    font-weight: 100;
 }
 
 .project_name:hover {
