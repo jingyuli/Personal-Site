@@ -1,0 +1,212 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15pt;
+    font-weight: 100;
+    color: black;
+    background-color: white;
+}
+
+body a:link, a:visited {
+    color:dimgray;
+    text-decoration: none;
+}
+
+body a:active, a:hover {
+    color:black;
+    text-decoration: none;
+}
+
+body p {
+    line-height: 175%;
+}
+
+body h1 {
+    
+}
+
+body h2 {
+    
+}
+
+button {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+
+.home {
+    padding-top: 2%;
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-size: 27pt;
+}
+
+.home_top {
+    display: flex;
+    font-size: 75pt;
+    font-weight: 100;
+}
+
+.home_left {
+    padding-top: 10%;
+    padding-right: 1%;
+    width: 25%;
+    height: 55%;
+    text-align: right;
+}
+
+.home_center {
+    width: 50%;
+    height: 55%;
+    text-align: center;
+}
+
+.home_right {
+    padding-top: 10%;
+    padding-left: 1%;
+    flex-grow: 1;
+    height: 55%;
+    text-align: left;
+}
+
+.home_bottom {
+    padding-top: 1%;
+    width: 100%;
+}
+
+.nav {
+    margin: 0px;
+    padding-top: 2vh;
+    padding-right: 3%;
+    text-align: right;
+    height: 5vh;
+    font-size: 13.5pt;
+}
+
+.about {
+    height: 91vh;
+    padding-left: 5.5%;
+    padding-right: 5%;
+    padding-top: 2vh;
+}
+
+.about_content {
+    display: flex;
+}
+
+.about_photo {
+    width: 45%;
+    float: left;
+    text-align: right;
+    padding-top: 2.2%;
+    padding-right: 3%;
+}
+
+.about_text {
+    width: 50%;
+    float: left;
+    text-align: left;
+    padding-left: 3%;
+    flex-grow: 1;
+}
+
+.interests {
+    height: 97vh;
+    padding-top: 3vh;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.interests_photo {
+    width: 50%;
+    float: left;
+    text-align: right;
+    padding-top: 2.2%;
+    padding-right: 3%;
+}
+
+.interests_text {
+    width: 50%;
+    float: left;
+    text-align: left;
+    padding-top: 2%;
+    padding-left: 3%;
+    flex-grow: 1;
+}
+
+.projects {
+    width: 100%;
+    padding-top:5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.hover a:link img {
+    opacity: 1.0;
+    -webkit-backface-visibility: hidden;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+.hover a:hover img {
+    opacity: 0.35;
+}
+
+.project_name {
+    position: absolute;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+    opacity: 0.0;
+    font-size: 30pt;
+}
+
+.project_name:hover {
+    opacity: 1.0;
+}
+
+.photography {
+    width: 27%;
+    position: relative;
+    float: left;
+    margin-right: 3%;
+}
+
+.logic {
+    width: 27%;
+    position: relative;
+    float: left;
+    margin-right: 3%;
+}
+
+.evolving {
+    width: 27%;
+    position: relative;
+    float: left;
+}
+
+.scroll {
+    margin-top: 5.5%;
+    text-align: center;
+    width: 100%;
+}
+
+.scroll a:link img {
+    opacity: 1.0;
+    -webkit-backface-visibility: hidden;
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+}
+
+.scroll a:hover img {
+    opacity: 0.35;
+}
