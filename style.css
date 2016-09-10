@@ -19,7 +19,7 @@ body a:active, a:hover {
 }
 
 body p {
-    line-height: 175%;
+    line-height: 170%;
 }
 
 body h1 {
@@ -103,7 +103,7 @@ button {
     width: 45%;
     float: left;
     text-align: right;
-    padding-top: 2.2%;
+    padding-top: 2.5%;
     padding-right: 3%;
 }
 
@@ -203,7 +203,6 @@ button {
 }
 
 .scroll {
-    margin-top: 5.5%;
     text-align: center;
     width: 100%;
 }
