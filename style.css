@@ -94,7 +94,7 @@ button {
     padding-top: 2vh;
 }
 
-.about_header {
+.header {
     padding-top: 2vh;
     font-size: 6.5vh;
 }
@@ -153,11 +153,15 @@ button {
 .projects {
     width: 100%;
     padding-top:5%;
-    padding-left: 10%;
+    padding-left: 7%;
     padding-right: 10%;
 }
 
-.hover a:link img {
+.gallery {
+    padding-top: 5vh;
+}
+
+.gallery a:link img {
     opacity: 1.0;
     -webkit-backface-visibility: hidden;
     transition: opacity .25s ease-in-out;
@@ -165,7 +169,7 @@ button {
     -webkit-transition: opacity .25s ease-in-out;
 }
 
-.hover a:hover img {
+.gallery a:hover img {
     opacity: 0.30;
 }
 
