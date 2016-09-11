@@ -30,6 +30,15 @@ body h2 {
     
 }
 
+nav {
+    margin: 0px;
+    padding-top: 3vh;
+    padding-right: 3%;
+    text-align: right;
+    height: 5vh;
+    font-size: 2.7vh;
+}
+
 button {
     appearance: none;
     -webkit-appearance: none;
@@ -76,15 +85,6 @@ button {
 .home_bottom {
     padding-top: 1%;
     width: 100%;
-}
-
-.nav {
-    margin: 0px;
-    padding-top: 3vh;
-    padding-right: 3%;
-    text-align: right;
-    height: 5vh;
-    font-size: 2.7vh;
 }
 
 .about {
