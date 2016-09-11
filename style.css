@@ -88,7 +88,7 @@ button {
 }
 
 .about {
-    height: 83vh;
+    height: 82vh;
     padding-left: 5.5%;
     padding-right: 5%;
     padding-top: 2vh;
@@ -100,12 +100,12 @@ button {
 }
 
 .about_content {
-    height: 74.5vh;
+    height: 73.5vh;
     display: flex;
 }
 
 .about_photo {
-    height: 71.5vh;
+    height: 70.5vh;
     width: 45%;
     float: left;
     text-align: right;
@@ -114,7 +114,7 @@ button {
 }
 
 .about_text {
-    height: 74.5vh;
+    height: 73.5vh;
     width: 50%;
     float: left;
     text-align: left;
@@ -124,7 +124,7 @@ button {
 }
 
 .interests {
-    height: 90vh;
+    height: 89vh;
     padding-top: 3vh;
     padding-left: 3%;
     padding-right: 3%;
@@ -226,7 +226,7 @@ button {
 }
 
 .scroll {
-    height: 7vh;
+    height: 8vh;
     text-align: center;
     width: 100%;
 }
