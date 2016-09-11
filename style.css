@@ -161,7 +161,7 @@ button {
     padding-top: 5vh;
 }
 
-.gallery a:link, a:visited img {
+.gallery a:link img {
     color: black;
     opacity: 1.0;
     -webkit-backface-visibility: hidden;
@@ -173,6 +173,10 @@ button {
 .gallery a:hover img {
     color: black;
     opacity: 0.25;
+}
+
+.gallery a:visited img {
+    
 }
 
 .project_name {
