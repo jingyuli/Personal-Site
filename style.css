@@ -2,7 +2,7 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 15pt;
+    font-size: 2.7vh;
     font-weight: 100;
     color: black;
     background-color: white;
@@ -43,12 +43,12 @@ button {
     padding-top: 2%;
     text-align: center;
     font-family: 'Sacramento', cursive;
-    font-size: 27pt;
+    font-size: 5vh;
 }
 
 .home_top {
     display: flex;
-    font-size: 75pt;
+    font-size: 14vh;
     font-weight: 100;
     height: 78vh;
 }
@@ -80,48 +80,58 @@ button {
 
 .nav {
     margin: 0px;
-    padding-top: 2vh;
+    padding-top: 3vh;
     padding-right: 3%;
     text-align: right;
     height: 5vh;
-    font-size: 13.5pt;
+    font-size: 2.7vh;
 }
 
 .about {
-    height: 91vh;
+    height: 83vh;
     padding-left: 5.5%;
     padding-right: 5%;
     padding-top: 2vh;
 }
 
+.about_header {
+    padding-top: 2vh;
+    font-size: 6.5vh;
+}
+
 .about_content {
+    height: 74.5vh;
     display: flex;
 }
 
 .about_photo {
+    height: 71.5vh;
     width: 45%;
     float: left;
     text-align: right;
-    padding-top: 2.5%;
+    padding-top: 3vh;
     padding-right: 3%;
 }
 
 .about_text {
+    height: 74.5vh;
     width: 50%;
     float: left;
     text-align: left;
     padding-left: 3%;
     flex-grow: 1;
+    overflow: scroll;
 }
 
 .interests {
-    height: 97vh;
+    height: 90vh;
     padding-top: 3vh;
     padding-left: 3%;
     padding-right: 3%;
 }
 
 .interests_photo {
+    height: 100%;
     width: 50%;
     float: left;
     text-align: right;
@@ -130,12 +140,14 @@ button {
 }
 
 .interests_text {
+    height: 100%;
     width: 50%;
     float: left;
     text-align: left;
     padding-top: 2%;
     padding-left: 3%;
     flex-grow: 1;
+    overflow: scroll;
 }
 
 .projects {
@@ -168,12 +180,14 @@ button {
 }
 
 .project_name h1 {
-    font-size: 30pt;
+    font-size: 5.2vh;
     font-weight: 100;
 }
 
 .project_name h2 {
-    font-size: 18pt;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 3.5vh;
     font-weight: 100;
 }
 
@@ -202,6 +216,7 @@ button {
 }
 
 .scroll {
+    height: 7vh;
     text-align: center;
     width: 100%;
 }
