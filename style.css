@@ -205,21 +205,25 @@ button {
     opacity: 1.0;
 }
 
-.photography {
+.row {
+    height: 37.5vh;
+}
+
+.left {
     width: 27%;
     position: relative;
     float: left;
     margin-right: 3%;
 }
 
-.logic {
+.center {
     width: 27%;
     position: relative;
     float: left;
     margin-right: 3%;
 }
 
-.evolving {
+.right {
     width: 27%;
     position: relative;
     float: left;
