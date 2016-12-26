@@ -206,7 +206,7 @@ button {
 }
 
 .row {
-    height: 37.5vh;
+    padding-bottom: 3vh;
 }
 
 .left {
