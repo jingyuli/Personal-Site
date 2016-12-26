@@ -152,13 +152,13 @@ button {
 
 .projects {
     width: 100%;
-    padding-top:5%;
+    padding-top: 2vh;
     padding-left: 7%;
     padding-right: 10%;
 }
 
 .gallery {
-    padding-top: 5vh;
+    padding-top: 3vh;
 }
 
 .gallery a:link img {
@@ -206,6 +206,7 @@ button {
 }
 
 .row {
+    
 }
 
 .left {
