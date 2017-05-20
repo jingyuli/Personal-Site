@@ -22,6 +22,10 @@ app.get('/projects', function(req, res) {
 	res.render('projects', {title: 'Projects'});
 });
 
+app.get('/photo', function(req, res) {
+	res.render('photo', {title: 'Photography'});
+});
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');

@@ -2,7 +2,7 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 2.7vh;
+    font-size: 15pt;
     font-weight: 100;
     color: black;
     background-color: white;
@@ -35,8 +35,8 @@ nav {
     padding-top: 3vh;
     padding-right: 3%;
     text-align: right;
-    height: 5vh;
-    font-size: 2.7vh;
+    height: 8vh;
+    font-size: 16pt;
 }
 
 button {
@@ -52,14 +52,15 @@ button {
     padding-top: 2%;
     text-align: center;
     font-family: 'Sacramento', cursive;
-    font-size: 5vh;
+    font-size: 25pt;
 }
 
 .home_top {
     display: flex;
-    font-size: 14vh;
+    font-size: 85pt;
     font-weight: 100;
-    height: 78vh;
+    padding-top: 1vh;
+    height: 79vh;
 }
 
 .home_left {
@@ -88,38 +89,36 @@ button {
 }
 
 .about {
-    height: 82vh;
+    height: 80vh;
     padding-left: 5.5%;
     padding-right: 3%;
-    padding-top: 2vh;
+    padding-top: 1vh;
 }
 
 .header {
     padding-top: 2vh;
+    padding-bottom: 2vh;
     font-size: 6.5vh;
 }
 
 .about_content {
-    height: 73.5vh;
     display: flex;
 }
 
 .about_photo {
-    height: 70.5vh;
-    width: 45%;
+    width: 46%;
     float: left;
     text-align: right;
-    padding-top: 3vh;
+    padding-top: 1vh;
     padding-right: 3%;
 }
 
 .about_text {
-    height: 73.5vh;
     width: 50%;
     float: left;
     text-align: left;
-    padding-left: 3%;
-    padding-right: 2%;
+    padding-left: 2%;
+    padding-right: 2%
     overflow: scroll;
 }
 
@@ -158,7 +157,8 @@ button {
 }
 
 .gallery {
-    padding-top: 3vh;
+    width: 100%;
+    padding-top: 1vh;
 }
 
 .gallery a:link img {
@@ -206,7 +206,7 @@ button {
 }
 
 .row {
-    
+    width: 100%;
 }
 
 .left {
@@ -248,4 +248,25 @@ button {
 
 .scroll a:hover img {
     opacity: 0.35;
+}
+
+#photography {
+    margin-top: 2vh;
+    margin-left: 3%;
+    margin-right: 3%;
+    display: flex;
+}
+
+#photo-left {
+    width: 49.5%;
+    margin-right: 0.5%;
+}
+
+#photo-right {
+    width: 49.5%;
+    margin-left: 0.5%;
+}
+
+.photo {
+    margin-bottom: 2%;
 }
