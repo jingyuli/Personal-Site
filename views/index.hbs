@@ -1,3 +1,4 @@
+<!--
 
 <div class="home">
     <div class="home_top">
@@ -6,4 +7,88 @@
         <div class="home_right">Li</div>
     </div>
     <div class="home_bottom">Computer scientist, designer</div>
+</div>
+-->
+<div class="carousel slide" data-ride="carousel" id="quote-carousel">
+<div class="carousel-inner">
+
+  <div class="item active">
+    <div class="about">
+        <div class="about_content">
+            <div class="about_photo">
+                <img src="/images/profile_scaled.jpg" alt="profile picture" width="100%">
+            </div>
+            <div class="about_text">
+                Hello there, I am a computer scientist and designer studying at MIT. I enjoy photography, drawing, painting, friends, and boba. 
+            </div>
+        </div>
+    </div>
+  </div>
+  <div class="item">
+    <div class="about">
+        <div class="about_content">
+            <div class="about_photo">
+                <img src="/images/profile_scaled.jpg" alt="profile picture" width="100%">
+            </div>
+            <div class="about_text">
+                Hello there, I am a computer scientist and designer studying at MIT. I enjoy photography, drawing, painting, friends, and boba. 
+            </div>
+        </div>
+    </div>
+  </div>
+  <div class="item">
+    <div class="about">
+        <div class="about_content">
+            <div class="about_photo">
+                <img src="/images/profile_scaled.jpg" alt="profile picture" width="100%">
+            </div>
+            <div class="about_text">
+                Hello there, I am a computer scientist and designer studying at MIT. I enjoy photography, drawing, painting, friends, and boba. 
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+<!-- Carousel Buttons Next/Prev -->
+<a data-slide="prev" href="#quote-carousel" class="left carousel-control"><img src="/images/circle.png" height="20px"></a>
+<a data-slide="next" href="#quote-carousel" class="right carousel-control"><img src="/images/circle.png" height="20px"></a>
+</div>
+
+<script>
+    $(document).ready(function() {
+      //Set the carousel options
+      $('#quote-carousel').carousel({
+        pause: true,
+        interval: false,
+      });
+    });
+</script>
+
+<div id="photography">
+    <div id="photo-left">
+        <img class="photo" src="images/photography/withering.jpg" width="100%">
+        <img class="photo" src="images/photography/charles_night.jpg" width="100%">
+        <img class="photo" src="images/photography/lake_arenal.jpg" width="100%">
+        <img class="photo" src="images/photography/boston_cars.jpg" width="100%">
+        <img class="photo" src="images/photography/july_4_stage.jpg" width="100%">
+        <img class="photo" src="images/photography/july_4_confetti.jpg" width="100%">
+        <img class="photo" src="images/photography/railroad.jpg" width="100%">
+        <img class="photo" src="images/photography/puzzle_painting.jpg" width="100%">
+    </div>
+
+    <div id="photo-right">
+        <img class="photo" src="images/photography/starbucks.jpg" width="100%">
+        <img class="photo" src="images/photography/ring.jpg" width="100%">
+        <img class="photo" src="images/photography/night_flowers.jpg" width="100%">
+        <img class="photo" src="images/photography/lily.jpg" width="100%">
+        <img class="photo" src="images/photography/snowy_brick.jpg" width="100%">
+        <img class="photo" src="images/photography/courtney_wind.jpg" width="100%">
+        <img class="photo" src="images/photography/hannah_portrait.jpg" width="100%">
+        <img class="photo" src="images/photography/harvard_gate.jpg" width="100%">
+        <img class="photo" src="images/photography/hallway.jpg" width="100%">
+        <img class="photo" src="images/photography/summer_reflection.jpg" width="100%">
+        <img class="photo" src="images/photography/hand.jpg" width="100%">
+    </div>
+    <center><img id="photo-logo" src="/images/photography_logo.png" height="35px"></center>
 </div>
