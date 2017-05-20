@@ -281,7 +281,7 @@ button {
 #quote-carousel .carousel-control.left 
 {
     top: 90px;
-    left: -12px;
+    padding-right: 50px;
     -webkit-backface-visibility: hidden;
     transition: opacity .25s ease-in-out;
     -moz-transition: opacity .25s ease-in-out;
@@ -291,7 +291,7 @@ button {
 #quote-carousel .carousel-control.right 
 {
     top: 90px;
-    right: -12px !important;
+    padding-left: 50px;
     -webkit-backface-visibility: hidden;
     transition: opacity .25s ease-in-out;
     -moz-transition: opacity .25s ease-in-out;
