@@ -92,7 +92,6 @@ button {
     width: 100%;
     padding-left: 5.5%;
     padding-right: 3%;
-    text-align: center;
     position: relative;
 }
 
@@ -104,23 +103,21 @@ button {
 
 .about_content {
     width: 1200px;
-    margin: auto;
+/*    margin: auto;*/
 }
 
 .about_photo {
-    width: 430px;
+    width: 360px;
     float: left;
-    text-align: right;
     padding-top: 1vh;
     padding-right: 20px;
 }
 
 .about_text {
-    width: 750px;
+    width: 820px;
     font-family: 'Nothing You Could Do', cursive;
     font-size: 25pt;
     float: left;
-    text-align: left;
     padding-left: 2%;
     padding-right: 2%;
     padding-top: 85px;
@@ -220,6 +217,7 @@ button {
     width: 100%;
 }
 
+/*
 .scroll a:link img {
     opacity: 1.0;
     -webkit-backface-visibility: hidden;
@@ -231,10 +229,11 @@ button {
 .scroll a:hover img {
     opacity: 0.35;
 }
+*/
 
 #photography {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 50px;
     padding-left: 15px;
     padding-right: 15px;
     position: relative;
@@ -265,7 +264,7 @@ button {
 #quote-carousel 
 {
   padding: 0 10px 30px 10px;
-  margin-top: 35px;
+  margin-top: 65px;
 }
 
 /* Control buttons  */
@@ -277,7 +276,9 @@ button {
   text-shadow: none;
   margin-top: 30px;
 }
+
 /* Previous button  */
+/*
 #quote-carousel .carousel-control.left 
 {
     top: 90px;
@@ -287,32 +288,17 @@ button {
     -moz-transition: opacity .25s ease-in-out;
     -webkit-transition: opacity .25s ease-in-out;
 }
+*/
+
 /* Next button  */
 #quote-carousel .carousel-control.right 
 {
     top: 90px;
-    padding-left: 50px;
+/*    padding-left: 50px;*/
     -webkit-backface-visibility: hidden;
     transition: opacity .25s ease-in-out;
     -moz-transition: opacity .25s ease-in-out;
     -webkit-transition: opacity .25s ease-in-out;
-}
-/* Changes the position of the indicators */
-#quote-carousel .carousel-indicators 
-{
-  right: 50%;
-  top: auto;
-  bottom: 0px;
-  margin-right: -19px;
-}
-/* Changes the color of the indicators */
-#quote-carousel .carousel-indicators li 
-{
-  background: #c0c0c0;
-}
-#quote-carousel .carousel-indicators .active 
-{
-  background: #333333;
 }
 
 .item {
